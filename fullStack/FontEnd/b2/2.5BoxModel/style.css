@@ -1,0 +1,9 @@
+.box {
+  width: 0;
+  height: 0;
+  border: 50px solid;
+  border-color: green blue blueviolet red;
+  /* border-color: #fff #fff #d30a0a #fff; */
+  border-top-width: 0;
+  border-right-width: 0;
+}

@@ -1,0 +1,72 @@
+
+/* 
+h2::before{
+    content: "a";
+}
+h2::after{
+    content: " b";
+}
+p::first-letter{
+    color: red;
+}
+p::first-line{
+    color: green;
+}
+p::selection{
+    background-color: black;
+    color: goldenrod;
+}
+input::placeholder{
+    color: red;
+}
+input{
+    color: antiquewhite;
+} */
+/* h2:hover {
+  color: blue;
+}
+h2:active {
+  color: chartreuse;
+}
+input:focus {
+  background-color: red;
+}
+input:focus::placeholder {
+  color: rgb(19, 227, 51);
+}
+
+button:focus {
+  background-color: green;
+}
+
+ul :first-child {
+  color: red;
+}
+ul li:last-child {
+  color: rgb(19, 227, 51);
+}
+ul li:first-of-type {
+  color: blueviolet;
+}
+
+ul li:nth-child(3) {
+  color: rgb(177, 34, 34);
+}
+ul li:nth-of-type(2n + 2) {
+  color: chartreuse;
+} */
+/* ul li:not(.current, .active) {
+  color: blue;
+} */
+
+input:checked + span {
+  color: blue;
+}
+button:disabled {
+  color: red;
+}
+input:valid + span {
+  color: red;
+}
+
+

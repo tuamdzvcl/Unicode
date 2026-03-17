@@ -1,0 +1,55 @@
+/*
+đơn vị css
+px tuyệt đối
+em tương đối theo phông size của phần tử cha
+rem tương đối của phần tử gốc(html)
+*/
+
+/* p {
+  color: red;
+}
+.text1 {
+  color: blue;
+}
+.text2 {
+  color: rgba(0, 0, 255, 0.173);
+} */
+/* html {
+  font-size: 20px;
+}
+body {
+  font-size: 18px;
+}
+.box {
+  font-size: 1.25rm;
+}
+.content {
+  font-size: 1.2em;
+}
+.text {
+  font-size: 1.2em;
+}
+p {
+  font-size: 1rem;
+} */
+@font-face {
+  font-family: leventshop;
+  src: url(./fonts/SVN-Fontbox-Boathouse-Filled\ .otf);
+}
+body {
+  font-family: "open Sans", sans-serif;
+
+  font-weight: 100;
+  /* font-style: italic;
+  line-height: 2;
+  text-transform: capitalize;
+  text-decoration: none;
+  letter-spacing: 1px;
+  word-spacing: 50px; */
+
+  /* text-align: justify; */
+}
+p {
+  width: 20px;
+  word-wrap: break-word;
+}

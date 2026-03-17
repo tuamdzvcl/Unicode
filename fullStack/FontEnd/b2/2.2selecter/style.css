@@ -1,0 +1,30 @@
+#title{
+    color: red;
+}
+.title-sub{
+    color: aqua;
+}
+.content h2 {
+    color: rgb(40, 50, 50);
+}
+.box > h2{
+    color: red;
+}
+
+.product .item.large{
+    color: rgb(34, 97, 193);
+}
+ .menu > li> a  {
+    color: red;
+}
+
+/* h2 ~ p{
+    background-color: blue;
+}
+h2 ~div p{
+    background-color: red;
+} */
+
+h2 + p {
+    background-color: azure;
+}
