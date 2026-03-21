@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: #333;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  border-bottom: 1px solid #e2dada;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 15px;
+}
+.header .logo {
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .nav {
+  width: 65%;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.nav ul li {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.main-header .xuhuong ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+.main-header .xuhuong ul li {
+  padding: 0 12px 0 16px;
+  line-height: 35px;
+  border: 1px #fff;
+  background-color: #f0f0f0;
+  font-size: 1.3rem;
+  border-radius: 22.5px;
+  font-weight: 200;
+}
+.main-header .xuhuong ul li a {
+  padding: 0 10px;
+}
+.main-header .xuhuong ul li a::before {
+  content: "#";
+  margin-right: 5px;
+}
+.main-header .xuhuong ul li:hover {
+  background: -webkit-linear-gradient(135deg, #ee7752, #e13965, #8138c6);
+  background: linear-gradient(-45deg, #ee7752, #e13965, #8138c6);
+  background-size: 400% 400%;
+  -webkit-animation: bggradient 15s ease infinite;
+  -moz-animation: bggradient 15s ease infinite;
+  animation: bggradient 15s ease infinite;
+  color: #fff;
+}
+.main-header .xuhuong ul li a:hover {
+  color: #fff;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.body-left {
+  width: 30%;
+}
+.body-left .cart {
+  display: flex;
+  gap: 10px;
+  height: auto;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e2dada;
+}
+.cart .cart-image {
+  width: 150px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding-bottom: 15px;
+}
+.cart .cart-image img {
+  border-radius: 5px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+}
+.cart .left-title a {
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-wrap: wrap;
+}
+
+.cart-mid {
+  width: 50%;
+  height: 100%;
+}
+.cart-mid .mid-img {
+  border-radius: 10px;
+  height: 80vh;
+  overflow: hidden;
+}
+.cart-mid .mid-content h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.cart-right {
+  width: 20%;
+  height: 100%;
+}
+.box-right {
+  margin-bottom: 20px;
+}
+
+.box-right .img img {
+  height: 35vh;
+  border-radius: 5px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 10px;
+}
+.box-right .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.books h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.books h2::before {
+  font-weight: 700;
+
+  content: "/";
+  margin-right: 5px;
+}
+.books .list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  --gap: 15px;
+  --column: 5;
+  gap: var(--gap);
+}
+.books-card {
+  border-radius: 5px;
+  height: 250px;
+}
+.books-card .img {
+  width: 100%;
+
+  padding-top: 75%;
+  position: relative;
+  overflow: hidden;
+}
+.books-card .img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+.books .books-card {
+  border: 1px solid #dddddd;
+  width: calc(100% / var(--column) - var(--gap) + var(--gap) / var(--column));
+}
+.books-card .info {
+  margin: 10px 5px;
+  font-size: 1.2rem;
+}
